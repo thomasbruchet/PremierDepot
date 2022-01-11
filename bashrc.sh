@@ -9,3 +9,5 @@ sed -i -e "s/# alias rm/ alias rm/" /home/tbr/.bashrc
 sed -i -e "s/PS1='/PS1='\\\n/g" /home/tbr/.bashrc 
 sed -i -e "s/#force_color_prompt/ force_color_prompt/" /home/tbr/.bashrc
 source .bashrc  
+echo -e "\e[96m Done"  
+echo -e "  "  
