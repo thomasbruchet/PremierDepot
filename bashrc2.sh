@@ -9,5 +9,5 @@ sed -i -e "s/#alias rm/ alias rm/" .bashrc
 sed -i -e "s/PS1='/PS1='\\\n/g" .bashrc  
 sed -i -e "s/#force_color_prompt/ force_color_prompt/" .bashrc  
 source .bashrc  
-echo -e "\e[96m Done"  
-echo -e "  "  
+source .bashrc  
+echo -e "\e[96m Done" 
